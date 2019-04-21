@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace Rs232Equipment
 {
-    public class Class1
+    public class BOO1
     {
         public void show()
+        {
+            Console.WriteLine("this is  Rs232Equipment");
+        }
+        public void show1()
         {
             Console.WriteLine("this is  Rs232Equipment");
         }
