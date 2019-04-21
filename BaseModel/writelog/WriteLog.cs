@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaseModel.log
+namespace BaseModel.writelog
 {
     public class WriteLog
     {

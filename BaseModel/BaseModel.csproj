@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="ConvertFrom\ConvertFrom.cs" />
     <Compile Include="INIFileSet\INIFileSet.cs" />
+    <Compile Include="writelog\Excellog.cs" />
     <Compile Include="writelog\JsonHelper.cs" />
     <Compile Include="writelog\WriteLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
