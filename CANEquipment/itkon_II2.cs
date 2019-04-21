@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GPIBEquipment
+namespace CANEquipment
 {
-    public class Class1
+    public class itkon_II2
     {
         public void show()
         {
-            Console.WriteLine("this is gpib Equipment");
+            Console.WriteLine("this is  CANEquipment");
         }
-
-           
     }
 }
