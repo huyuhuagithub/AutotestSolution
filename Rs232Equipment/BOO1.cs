@@ -16,5 +16,9 @@ namespace Rs232Equipment
         {
             Console.WriteLine("this is  Rs232Equipment");
         }
+        public void show2()
+        {
+            Console.WriteLine("this is  Rs232Equipment");
+        }
     }
 }
