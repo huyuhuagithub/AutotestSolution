@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rs232Equipment
 {
-    public class BOO1
+    public class BT001
     {
         public void show()
         {

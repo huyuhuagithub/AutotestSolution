@@ -21,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -43,6 +44,16 @@
   <ItemGroup>
     <Compile Include="itkon_II2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AbstractEquipment\AbstractEquipment.csproj">
+      <Project>{AD8465AC-6159-4623-81EA-FA1696A49A1C}</Project>
+      <Name>AbstractEquipment</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BaseModel\BaseModel.csproj">
+      <Project>{4334AF50-A1EC-4FCA-A13C-B2139609FD05}</Project>
+      <Name>BaseModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
